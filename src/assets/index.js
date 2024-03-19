@@ -70,6 +70,13 @@ export {
   avatar5,
   avatar6,
 
+  benefitCard1,
+  benefitCard2,
+  benefitCard3,
+  benefitCard4,
+  benefitCard5,
+  benefitCard6,
+
   muayThaiLogo,
   photo1,
   photo2,
@@ -98,12 +105,7 @@ export {
   stars,
   coins,
   done,
-  benefitCard1,
-  benefitCard2,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6,
+ 
   discordBlack,
   facebook,
   instagram,
