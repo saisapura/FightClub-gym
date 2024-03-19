@@ -14,6 +14,24 @@ import {
   sliders04,
   telegram,
   twitter,
+  benefitCard1,
+  benefitCard2,
+  benefitCard3,
+  benefitCard4,
+  benefitCard5,
+  benefitCard6, 
+  trainer1,
+  trainer2,
+  trainer3,
+  trainer4,
+  trainer5,
+  avatar1,
+  avatar2,
+  avatar3,
+  avatar4,
+  avatar5,
+  avatar6,
+  
 
 } from "../assets";
 
@@ -121,7 +139,7 @@ export const programs = [
       { "Week 3": "Integration of basic combinations, focus on conditioning, cardiovascular and strength, and sparring drills" },
       { "Week 4": "Review of all techniques learned, introduction to more advanced combinations, and controlled sparring sessions" }
     ], 
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: benefitCard1,
     iconUrl: fighters,
     imageUrl: fighters,
     light: true,
@@ -138,7 +156,7 @@ export const programs = [
       { "Week 5-6": "Combination drills with emphasis on fluidity and timing, increased sparring intensity (medium contact)" },
       { "Week 7-8": "Advanced defensive strategies, counter-attacking techniques, and simulated fight scenarios" }
   ],
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl:benefitCard2,
     iconUrl: fighters,
     imageUrl: fighters,
 
@@ -155,7 +173,7 @@ export const programs = [
       { "Bi-weekly": "Strength and conditioning workouts, including weight training, plyometrics, and endurance drills" },
       { "Monthly": "Assessment and review of progress, adjustments to training regimen based on performance and goals" }
   ],  
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: benefitCard3,
     iconUrl: fighters,
     imageUrl: fighters,
     light: true,
@@ -179,7 +197,7 @@ export const programs = [
       "Mental preparation: Visualization, strategy development, and mindset conditioning"
     ],
 
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: benefitCard4,
     iconUrl: fighters,
     imageUrl: fighters,
 
@@ -195,7 +213,7 @@ export const programs = [
       { "Week 2": "Advanced combination drills and simulated fight scenarios" }
   ],
   
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: benefitCard5,
     iconUrl: fighters,
     imageUrl: fighters,
     light: true,
@@ -212,7 +230,7 @@ export const programs = [
     { "Week 5-6": "Integration of skills learned, simulated fight scenarios, and mental preparation" }
 ],
 
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: benefitCard6,
     iconUrl: fighters,
     imageUrl: fighters,
    
@@ -256,52 +274,52 @@ export const testimonials = [
     id: 0,
     name: "Jacob Szumlas",
     job: "Fitness Trainer",
-    avatarUrl: "./src/assets/testimonials/avatar-1.jpg",
+    avatarUrl: avatar1,
     testimonial: "As a fitness trainer, I'm impressed by the dedication and expertise of the trainers at this Muay Thai club. They create personalized training programs that cater to individual goals, helping members achieve remarkable progress. The atmosphere is motivating, and the camaraderie among members makes every session enjoyable.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: benefitCard1,
     light:true
   },
   {
     id: 1,
     name: "Alexia Wong",
     job: "Software Engineer",
-    avatarUrl: "./src/assets/testimonials/avatar-2.jpg",
+    avatarUrl: avatar2,
     testimonial: "I've been training at this Muay Thai club for over a year now, and it has transformed my life. The trainers not only teach the techniques but also instill discipline and mental resilience. The training facility is top-notch, and the location is convenient for my daily commute. I've made incredible progress and gained a supportive community of fellow fighters.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: benefitCard2,
 
   },
   {
     id: 2,
     name: "Lucas Parker",
     job: "Marketing Executive",
-    avatarUrl: "./src/assets/testimonials/avatar-3.jpg",
+    avatarUrl: avatar3,
     testimonial: "Training at this Muay Thai club has been a game-changer for me. The trainers are incredibly knowledgeable and supportive, providing guidance every step of the way. The training environment is welcoming, and I've formed strong bonds with fellow members. I've seen significant improvements in my skills and confidence since joining.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: benefitCard3,
     light:true
   },
   {
     id: 3,
     name: "Oliver Wilson",
     job: "Student",
-    avatarUrl: "./src/assets/testimonials/avatar-4.jpg",
+    avatarUrl: avatar4,
     testimonial: "As a student balancing academics and training, I appreciate the flexibility offered by this Muay Thai club. The trainers understand my commitments and work with me to create a training schedule that fits my busy lifestyle. The facility is equipped with everything I need for effective training, and I've seen remarkable progress in my technique and fitness level.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: benefitCard4,
   },
   {
     id: 4,
     name: "Michael Rodriguez",
     job: "Freelance Writer",
-    avatarUrl: "./src/assets/testimonials/avatar-5.jpg",
+    avatarUrl: avatar5,
     testimonial: "Joining this Muay Thai club has been one of the best decisions I've ever made. The trainers are not only experts in Muay Thai but also great motivators who push me to exceed my limits. The training facility is clean and spacious, creating the perfect environment for focused workouts. I've met incredible people here and feel stronger and more confident with each session.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: benefitCard5,
     light: true
   },
   {id: 5,
     name: "Francis Co",
     job: "Graphic Designer",
-    avatarUrl: "./src/assets/testimonials/avatar-6.jpg",
+    avatarUrl: avatar6,
     testimonial: "At first, I was unsure about joining this Muay Thai club, but now I'm incredibly glad I did. The trainers here are truly exceptional. The gym's location is convenient, making it easy for me to commit to regular sessions, and the facilities are excellent. The supportive community within the club has made my experience even more enriching, and I'm grateful for the camaraderie and motivation it provides.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: benefitCard6,
   }
 ];
 
@@ -312,14 +330,14 @@ export const coaches = [
     experience: "15 years of relentless training forged in the fires of competition.",
     accomplishment: "Undefeated champion of three Muay Thai tournaments.",
     motto: "Break through limits, forge your legacy.",
-    picture: "./src/assets/coaches/trainer-1.png"
+    picture: trainer1,
   },
   {
     name: "Chao Li",
     experience: "A decade of dedication to the art, molded by sweat and determination.",
     accomplishment: "Recipient of the Golden Glove award for exceptional technique.",
     motto: "Rise up with every strike, fear nothing",
-    picture: "./src/assets/coaches/trainer-2.png",
+    picture: trainer2,
     light:true,
   },
   {
@@ -327,21 +345,21 @@ export const coaches = [
     experience: "12 years mastering the art of silence and thunder in the ring.",
     accomplishment: "Named 'Fighter of the Year' by the Muay Thai Association.",
     motto: "Find strength in silence, unleash fury in motion",
-    picture: "./src/assets/coaches/trainer-3.png",
+    picture: trainer3,
   },
   {
     name: "Martio Romano",
     experience: "Overcame adversity with 10 years of resilience and perseverance.",
     accomplishment: "Champion of the Thai Legends Cup three years in a row.",
     motto: "Rise from ashes, soar with strength",
-    picture:"./src/assets/coaches/trainer-4.png",
+    picture:trainer4,
   },
   {
     name: "Raj Patel",
     experience: "Embarked on a journey of self-discovery, honing skills for 12 years.",
     accomplishment: "Undefeated Champion in Thailand's toughest Muay Thai tournaments.",
     motto: "With each setback, find your strength",
-    picture: "./src/assets/coaches/trainer-5.png",
+    picture: trainer5,
   }
 ]
 

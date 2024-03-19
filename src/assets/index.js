@@ -44,10 +44,34 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import trainer1 from "./coaches/trainer-1.png"
+import trainer2 from "./coaches/trainer-2.png"
+import trainer3 from "./coaches/trainer-3.png"
+import trainer4 from "./coaches/trainer-4.png"
+import trainer5 from "./coaches/trainer-5.png"
 
+import avatar1 from "./testimonials/avatar-1.jpg"
+import avatar2 from "./testimonials/avatar-2.jpg"
+import avatar3 from "./testimonials/avatar-3.jpg"
+import avatar4 from "./testimonials/avatar-4.jpg"
+import avatar5 from "./testimonials/avatar-5.jpg"
+import avatar6 from "./testimonials/avatar-6.jpg"
 
 
 export {
+  trainer1,
+  trainer2,
+  trainer3,
+  trainer4,
+  trainer5,
+  
+  avatar1,
+  avatar2,
+  avatar3,
+  avatar4,
+  avatar5,
+  avatar6,
+  
   muayThaiLogo,
   photo1,
   photo2,

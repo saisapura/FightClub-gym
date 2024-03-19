@@ -14,13 +14,13 @@ const Program = () => {
     return { truncatedText: truncatedText + (hasMore ? "..." : ""), hasMore };
   };
 
-  const [expandedProgram, setExpandedProgram] = useState(null); // State to track expanded program
+  const [expandedProgram, setExpandedProgram] = useState(null); 
 
   const toggleDetails = (programId) => {
     if (expandedProgram === programId) {
-      setExpandedProgram(null); // Collapse if already expanded
+      setExpandedProgram(null); 
     } else {
-      setExpandedProgram(programId); // Expand if collapsed
+      setExpandedProgram(programId); 
     }
   };
 

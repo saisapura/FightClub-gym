@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { coaches } from "../constants";
+import { trainer1, trainer2,trainer3, trainer4, trainer5 } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { Gradient } from "./design/coach";
