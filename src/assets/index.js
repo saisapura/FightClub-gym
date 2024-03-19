@@ -30,8 +30,6 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 
-
-
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
 import benefitCard3 from "./benefits/card-3.svg";
@@ -71,7 +69,7 @@ export {
   avatar4,
   avatar5,
   avatar6,
-  
+
   muayThaiLogo,
   photo1,
   photo2,

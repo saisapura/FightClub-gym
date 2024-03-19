@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import Arrow from "../assets/svg/Arrow";
 import Section from "./Section";
 import Heading from "./Heading";
+// import { avatar1,avatar2, avatar3, avatar4, avatar5, avatar6 } from "../assets";
 
 const Testimonials = () => {
   const [expandedTestimonial, setExpandedTestimonial] = useState(null);

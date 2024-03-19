@@ -35,7 +35,7 @@ const Program = () => {
 
         <div className="flex flex-wrap gap-10 mb-10">
           {programs.map((item) => {
-            const { id, title, text, duration, frequency, focus } = item;
+            const { id, title, text, duration, frequency, focus, backgroundUrl } = item;
             const { truncatedText } = truncateText(item.text);
 
             return (
@@ -45,7 +45,7 @@ const Program = () => {
                     expandedProgram === id ? "md:max-w-[35rem]" : "md:max-w-[24rem]"
                   }`}
                   style={{
-                    backgroundImage: `url(${item.backgroundUrl})`,
+                    backgroundImage: `url(${backgroundUrl})`,
                   }}
                   onClick={() => toggleDetails(id)}
                 >
