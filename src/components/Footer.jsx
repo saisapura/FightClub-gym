@@ -36,10 +36,12 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="w-full max-w-md">
             <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
+            <div className="body-2 text-n-2"> 
             <p>MuayThai FightClub</p>
             <p>123 Main Street, City, Country</p>
             <p>Phone: 123-456-7890</p>
-            <p>Email: info@muaythaifightclub.com</p>  
+            <p>Email: info@muaythaifightclub.com</p>  </div>
+           
           </div>
         </footer>
       </div>
