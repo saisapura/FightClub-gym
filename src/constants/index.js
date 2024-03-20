@@ -77,7 +77,6 @@ export const navigation = [
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-
 export const brainwaveServices = [
   "Become the best fighter ",
   "Expert training programs",
@@ -91,7 +90,6 @@ export const brainwaveServicesIcons = [
   chromecast,
   sliders04,
 ];
-
 
 export const pricing = [
   {

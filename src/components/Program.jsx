@@ -36,7 +36,7 @@ const Program = () => {
         <div className="flex flex-wrap gap-10 mb-10">
           {programs.map((item) => {
             const { id, title, text, duration, frequency, focus, backgroundUrl } = item;
-            console.log(backgroundUrl);
+        
             
             const { truncatedText } = truncateText(item.text);
 
