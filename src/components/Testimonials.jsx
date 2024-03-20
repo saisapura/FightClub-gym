@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import Arrow from "../assets/svg/Arrow";
 import Section from "./Section";
 import Heading from "./Heading";
-// import { avatar1,avatar2, avatar3, avatar4, avatar5, avatar6 } from "../assets";
 
 const Testimonials = () => {
   const [expandedTestimonial, setExpandedTestimonial] = useState(null);
@@ -18,7 +17,6 @@ const Testimonials = () => {
       setExpandedTestimonial(testimonialId);  
     }
   };
-  
 
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = useWindowSize().width <= 640 ? 1 : 3; 
@@ -69,14 +67,14 @@ const Testimonials = () => {
         />
         <div className="flex justify-center flex-wrap gap-10 mb-10">
           {currentItems.map((item) => {
-            const {id, name, job, avatarUrl, testimonial, backgroundUrl} = item;
+            const {id, name, job, avatarUrl, testimonial} = item;
             const { truncatedText } = truncateText(testimonial);
             return (
               <Link to="/" key={id}>
                 <div
                   className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] hover:scale-105 transition-transform duration-300"
                   style={{
-                    backgroundImage: `url(${backgroundUrl})`,
+                    backgroundImage: `url(${item.backgroundUrl})`,
                   }}
                   onClick={() => toggleDetails(id)}
                 >
@@ -93,6 +91,7 @@ const Testimonials = () => {
                     )}
                    
                     <div className="flex items-center mt-auto">
+                      
                       <img className="rounded-lg mr-7"
                         src={avatarUrl}
                         width={78}
