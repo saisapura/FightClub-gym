@@ -63,7 +63,7 @@ const Testimonials = () => {
       <div className="container relative z-2">
       <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Explore testimonials from our satisfied members"
+          title="Explore Testimonials from Our Satisfied Members"
         />
         <div className="flex justify-center flex-wrap gap-10 mb-10">
           {currentItems.map((item) => {
@@ -73,9 +73,6 @@ const Testimonials = () => {
               <Link to="/" key={id}>
                 <div
                   className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] hover:scale-105 transition-transform duration-300"
-                  style={{
-                    backgroundImage: `url(${item.backgroundUrl})`,
-                  }}
                   onClick={() => toggleDetails(id)}
                 >
                   <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
@@ -92,7 +89,7 @@ const Testimonials = () => {
                    
                     <div className="flex items-center mt-auto">
                       
-                      <img className="rounded-lg mr-7"
+                      <img className="rounded-lg mr-7 "
                         src={avatarUrl}
                         width={78}
                         height={78}
@@ -105,13 +102,12 @@ const Testimonials = () => {
                     </div>
                   </div>
 
-                  {item.light && <GradientLight />}
+                  {item.light && <GradientLight/>}
 
                   <div
-                    className="absolute inset-0.5 bg-n-8"
-                    style={{ clipPath: "url(#benefits)" }}
-                  >
-                    <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-5">
+                    className="absolute inset-0.5 bg-n-8 border border-purple-400 rounded-3xl opacity-15 overflow-hidden">
+                      
+                    <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-35 ">
                       {item.avatarUrl && (
                         <img
                           src={avatarUrl}
@@ -133,13 +129,13 @@ const Testimonials = () => {
         <div className="flex justify-between">
   <button 
     onClick={previousPage} 
-    className="button mr-8 text-n-1/50 transition-colors hover:text-n-1"
+    className="button ml-7 text-n-1/50 transition-colors hover:text-n-1"
   >
     Previous
   </button>
   <button 
     onClick={nextPage} 
-    className="button mr-8 text-n-1/50 transition-colors hover:text-n-1"
+    className="button mr-7 text-n-1/50 transition-colors hover:text-n-1"
   >
     Next
   </button>

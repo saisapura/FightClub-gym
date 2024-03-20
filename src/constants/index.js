@@ -133,7 +133,6 @@ export const programs = [
       { "Week 3": "Integration of basic combinations, focus on conditioning, cardiovascular and strength, and sparring drills" },
       { "Week 4": "Review of all techniques learned, introduction to more advanced combinations, and controlled sparring sessions" }
     ], 
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: fighters,
     imageUrl: fighters,
     light: true,
@@ -150,7 +149,6 @@ export const programs = [
       { "Week 5-6": "Combination drills with emphasis on fluidity and timing, increased sparring intensity (medium contact)" },
       { "Week 7-8": "Advanced defensive strategies, counter-attacking techniques, and simulated fight scenarios" }
   ],
-    backgroundUrl:"./src/assets/benefits/card-1.svg",
     iconUrl: fighters,
     imageUrl: fighters,
 
@@ -167,7 +165,6 @@ export const programs = [
       { "Bi-weekly": "Strength and conditioning workouts, including weight training, plyometrics, and endurance drills" },
       { "Monthly": "Assessment and review of progress, adjustments to training regimen based on performance and goals" }
   ],  
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: fighters,
     imageUrl: fighters,
     light: true,
@@ -183,15 +180,12 @@ export const programs = [
       { "Peak Phase (Weeks 5-8)": "Increased focus on fight-specific strategies, sharpening techniques, and simulated fight scenarios" },
       { "Tapering Phase (Weeks 9-12)": "Reduced training volume, maintaining peak fitness while allowing for recovery and strategic planning" }
     ],
-    
     components: [
       "Technical training: Advanced combinations, counters, and defensive tactics",
       "Sparring: High-intensity sessions, mimicking fight conditions",
       "Strength and conditioning: Tailored to peak performance on fight day",
       "Mental preparation: Visualization, strategy development, and mindset conditioning"
     ],
-
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: fighters,
     imageUrl: fighters,
 
@@ -206,8 +200,6 @@ export const programs = [
       { "Week 1": "Intensive conditioning drills and fundamental technique review" },
       { "Week 2": "Advanced combination drills and simulated fight scenarios" }
   ],
-  
-    backgroundUrl:"./src/assets/benefits/card-1.svg",
     iconUrl: fighters,
     imageUrl: fighters,
     light: true,
@@ -223,8 +215,6 @@ export const programs = [
     { "Week 3-4": "Technical refinement and sparring drills, improving precision and timing" },
     { "Week 5-6": "Integration of skills learned, simulated fight scenarios, and mental preparation" }
 ],
-
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: fighters,
     imageUrl: fighters,
    
@@ -270,7 +260,6 @@ export const testimonials = [
     job: "Fitness Trainer",
     avatarUrl: avatar1,
     testimonial: "As a fitness trainer, I'm impressed by the dedication and expertise of the trainers at this Muay Thai club. They create personalized training programs that cater to individual goals, helping members achieve remarkable progress. The atmosphere is motivating, and the camaraderie among members makes every session enjoyable.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
     light:true
   },
   {
@@ -279,7 +268,6 @@ export const testimonials = [
     job: "Software Engineer",
     avatarUrl: avatar2,
     testimonial: "I've been training at this Muay Thai club for over a year now, and it has transformed my life. The trainers not only teach the techniques but also instill discipline and mental resilience. The training facility is top-notch, and the location is convenient for my daily commute. I've made incredible progress and gained a supportive community of fellow fighters.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
 
   },
   {
@@ -288,8 +276,7 @@ export const testimonials = [
     job: "Marketing Executive",
     avatarUrl: avatar3,
     testimonial: "Training at this Muay Thai club has been a game-changer for me. The trainers are incredibly knowledgeable and supportive, providing guidance every step of the way. The training environment is welcoming, and I've formed strong bonds with fellow members. I've seen significant improvements in my skills and confidence since joining.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
-    light:true
+
   },
   {
     id: 3,
@@ -297,7 +284,6 @@ export const testimonials = [
     job: "Student",
     avatarUrl: avatar4,
     testimonial: "As a student balancing academics and training, I appreciate the flexibility offered by this Muay Thai club. The trainers understand my commitments and work with me to create a training schedule that fits my busy lifestyle. The facility is equipped with everything I need for effective training, and I've seen remarkable progress in my technique and fitness level.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
   },
   {
     id: 4,
@@ -305,15 +291,13 @@ export const testimonials = [
     job: "Freelance Writer",
     avatarUrl: avatar5,
     testimonial: "Joining this Muay Thai club has been one of the best decisions I've ever made. The trainers are not only experts in Muay Thai but also great motivators who push me to exceed my limits. The training facility is clean and spacious, creating the perfect environment for focused workouts. I've met incredible people here and feel stronger and more confident with each session.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
-    light: true
+     light: true
   },
   {id: 5,
     name: "Francis Co",
     job: "Graphic Designer",
     avatarUrl: avatar6,
     testimonial: "At first, I was unsure about joining this Muay Thai club, but now I'm incredibly glad I did. The trainers here are truly exceptional. The gym's location is convenient, making it easy for me to commit to regular sessions, and the facilities are excellent. The supportive community within the club has made my experience even more enriching, and I'm grateful for the camaraderie and motivation it provides.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
   }
 ];
 
