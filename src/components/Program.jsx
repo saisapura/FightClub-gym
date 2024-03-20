@@ -33,7 +33,7 @@ const Program = () => {
           title="Muay Thai Training Programs"
         />
 
-        <div className="flex flex-wrap gap-10 mb-10">
+        <div className="flex flex-wrap gap-10">
           {programs.map((item) => {
             const { id, title, text, duration, frequency, focus } = item;
         
