@@ -151,4 +151,19 @@ export default {
       });
     }),
   ],
+
+  purge: {
+    enabled: true,
+    content: [
+      "./index.html",
+      "./src/**/*.{js,ts,jsx,tsx}",
+      "./public/assets/**/*.{js,ts,jsx,tsx}",
+    ],
+    options: {
+      safelist: [
+        // Add classes or patterns you want to whitelist here
+        "bg-[length:100%_100%]",
+      ],
+    },
+  },
 };

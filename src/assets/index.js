@@ -30,13 +30,12 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 
-import benefitCard1 from "/src/assets/benefits/card-1.svg";
-import benefitCard2 from "/src/assets/benefits/card-2.svg";
-import benefitCard3 from "/src/assets/benefits/card-3.svg";
-import benefitCard4 from "/src/assets/benefits/card-4.svg";
-import benefitCard5 from "/src/assets/benefits/card-5.svg";
-import benefitCard6 from "/src/assets/benefits/card-6.svg";
-
+import benefitCard1 from "./benefits/card-1.svg";
+import benefitCard2 from "./benefits/card-2.svg";
+import benefitCard3 from "./benefits/card-3.svg";
+import benefitCard4 from "./benefits/card-4.svg";
+import benefitCard5 from "./benefits/card-5.svg";
+import benefitCard6 from "./benefits/card-6.svg";
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
