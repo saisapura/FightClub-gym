@@ -25,10 +25,9 @@ To access Muay Thai FightClub Gym, simply visit the website and explore the vari
 
 Contributions to Muay Thai FightClub Gym are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to submit a pull request or open an issue on GitHub.
 
-## Demo
-
-[See project](https://muaythai-fightclub-gym.netlify.app/)
-
 ## Acknowledgments
 
 Muay Thai FightClub Gym is made possible by the contributions of its developers and the support of the open-source community. Special thanks to all those who have contributed to the project's success.
+
+## Project Demo
+[Muay Thai FightClub Gym](https://muaythai-fightclub-gym.netlify.app/)
